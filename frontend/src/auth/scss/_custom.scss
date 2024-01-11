@@ -1,0 +1,35 @@
+#root {
+  .px-3 {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
+}
+.ant-table-cell {
+  img {
+    width: 200px;
+  }
+}
+
+.ant-popover-content {
+  max-width: 380px !important;
+}
+.space-custom-store {
+  .ant-space-item {
+    min-width: 100px !important;
+  }
+}
+
+.container-fluid {
+  .breadcrumb {
+    li {
+      a {
+        text-decoration: none;
+        color: #1677ff;
+      }
+    }
+  }
+}
+
+.btn-store {
+  margin-bottom: 1rem;
+}

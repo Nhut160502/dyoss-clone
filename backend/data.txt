@@ -1,0 +1,37 @@
+category = [
+    name: String, required 
+    slug: name,
+    banner:  String, 
+    timestamps:  true
+]
+
+collection = [
+    category: category, required
+    name: String, required
+    slug: name,
+    description: String,
+]
+
+size = [
+    name: String, required
+    slug:name
+]
+
+product = [
+    category: category, required,
+    collection: collection
+    name: String,
+    slug: name,
+    gallery: [String],
+    attribute:[attribute]
+    related: product
+    suggested:[product]
+    description: String,
+    introduce: String,
+    stock: Number,
+    price: Number,
+    sale:Number, 
+    sold: Number,
+    together:[Product]
+    promotion:[Product]
+]
